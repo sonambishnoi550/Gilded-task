@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+.justify-content-centre{
+    justify-content: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.bg-image {
+    background-image: url(../images/herobackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.link {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: white;
+}
+
+nav {
+    background: #0000001A;
+}
+
+.link:hover {
+    font-weight: 700;
+}
+
+.py-19 {
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+.navbtn {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    background: linear-gradient(149.67deg, #815CC8 29.44%, #1BABFE 81.54%);
+    box-shadow: 0px 8px 30px 0px #1BABFE;
+    border-radius: 100px;
+    padding: 20px 34px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+/* -----------------------section------------------- */
+.col-5 {
+    width: 41.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.py-63 {
+    padding-top: 63px;
+    padding-bottom: 63px;
+}
+
+.main-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 91.8px;
+    text-align: left;
+    color: white;
+    padding-top: 100px;
+}
+
+.main-heading:hover {
+    font-weight: 500;
+}
+
+.gild-color {
+    color: #1BABFE;
+}
+
+.layer {
+    position: relative;
+}
+
+.layer::after {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.19) 42.67%, #000000 96.67%),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    position: absolute;
+    left: 0%;
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+
+.gap-50 {
+    gap: 50px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+/* -------------col-5------------- */
+.table {
+    background: linear-gradient(139.51deg, rgba(255, 255, 255, 0.1) -0.66%, rgba(255, 255, 255, 0.03) 100%);
+    border: 2px solid;
+    border-image-source: linear-gradient(139.17deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.06) 100%);
+    padding: 17px;
+}
+
+.table-head {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: white;
+}
+
+.table-rate {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #1BABFE;
+}
+
+.table-sale {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: white;
+    padding-top: 5px;
+}
+
+.gap-150 {
+    gap: 150px;
+}
+
+.time {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: white;
+}
+
+/* use d-flex */
+.card {
+  border-radius: 20px;
+    width: 100%;
+    background: linear-gradient(139.51deg, rgba(255, 255, 255, 0.1) -0.66%, rgba(255, 255, 255, 0.03) 100%);
+    border: 2px solid #a38f8b;
+    border-image-source: linear-gradient(139.17deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.06) 100%);
+}
+
+.card-head {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: white;
+}
+
+.card-rate {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #1BABFE;
+}
+
+.card-token {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #C9DBDD;
+    padding-top: 5px;
+}
+
+
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.p-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.px-17 {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+
+
+.card-time {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: white;
+}
+
+.card-min {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: white;
+}
+
+.py-22 {
+    padding: 22px 17px;
+}
+
+.gap-48 {
+    gap: 48px;
+}
+
+.border {
+    border: 0.4px solid #8C8C8C
+}
+
+.svg-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: white;
+    padding-left: 8px;
+}
+
+.card-call {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #C7C9CA;
+    padding-top: 10px;
+}
+
+.card-no {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 10px;
+}
+.buybtn{
+    font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: white;
+        background: linear-gradient(149.67deg, #815CC8 29.44%, #1BABFE 81.54%);
+        border-radius: 100px;
+        padding: 20px 20px;
+        border: none;
+        cursor: pointer;
+}
+.pr-10{
+    padding-right: 10 px;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.col-12{
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.border{
+    border: 0.4px solid #8C8C8C
+}
+
+/* --------------responsive----------------------- */
+@media (max-width:1200px) {
+    label[for="menubar"] {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        position: relative;
+        z-index: 3;
+    }
+
+    label[for="menubar"]>span {
+        width: 100%;
+        height: 5px;
+        background-color: #2C49FE;
+        border-radius: 2px;
+    }
+
+    ul.mobile-view {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background: black;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        transition: all 200ms linear;
+    }
+
+    input[type="checkbox"]:checked~ul {
+        left: 0;
+    }
+
+    .svg {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media(min-width:1200px){
+    .col-xl-6{
+        width: 50%;
+            padding-left: 12px;
+            padding-right: 12px;
+    }
+         .col-xl-5 {
+             width: 41.66%;
+             padding-left: 12px;
+             padding-right: 12px;
+         }
+                  .line-1 {
+                      min-width: 341px;
+                      background: linear-gradient(180deg, #815CC8 0%, #1BABFE 100%);
+                      height: 4px;
+                  }
+        
+                  .line-2 {
+                      min-width: 181px;
+                      height: 4px;
+                      background: #C4C4C4;
+                  }
+
+}
+@media(max-width:768px){
+    .md-column{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}
+@media(min-width:768px){
+   
+}

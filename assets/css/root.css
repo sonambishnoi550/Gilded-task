@@ -1,0 +1,52 @@
+:root {
+    /*-----------------------------font-size------------------------*/
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-mmd:20px;
+    --fs-lg: 22px;
+    --fs-2lg: 24px;
+    --fs-xl: 26px;
+    --fs-xxl: 30px;
+    --fs-2xl: 32px;
+}
+.link{
+    font-size: var(--fs-lg);
+}
+.main-heading{
+    font-size: var(--fs-2xl);
+}
+.navbtn{
+    font-size: var(--fs-2lg);
+}
+.card-head{
+    font-size: var(--fs-xxl);
+}
+.card-rate{
+    font-size: var(--fs-mmd);
+}
+.card-token{
+    font-size: var(--fs-sm);
+}
+.buybtn{
+    font-size: var(--fs-2lg);
+}
+.card-time{
+font-size: var(--fs-xl);
+}
+.card-min{
+    font-size: var(--fs-xxl);
+}
+.svg-text{
+    font-size: var(--fs-md);
+}
+.card-call{
+    font-size: var(--fs-md);
+}
+.card-no{
+    font-size: var(--fs-2lg);
+}
+@media(min-width:576px){
+    :root{
+        --fs-2xl: 72px;
+    }
+}
