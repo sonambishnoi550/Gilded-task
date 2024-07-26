@@ -315,7 +315,7 @@ nav {
 .border{
     border: 0.4px solid #8C8C8C
 }
-
+/* -------------------------section end ------------- */
 /* --------------responsive----------------------- */
 @media (max-width:1200px) {
     label[for="menubar"] {
