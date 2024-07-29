@@ -98,7 +98,6 @@ nav {
     padding: 20px 34px;
     border: none;
     cursor: pointer;
-
 }
 
 .gap-10 {
@@ -202,8 +201,6 @@ nav {
     padding-top: 5px;
 }
 
-
-
 .pt-20 {
     padding-top: 20px;
 }
@@ -217,8 +214,6 @@ nav {
     padding-left: 17px;
     padding-right: 17px;
 }
-
-
 
 .card-time {
     font-family: 'Josefin Sans', sans-serif;
@@ -308,7 +303,6 @@ nav {
     padding-right: 12px;
 }
 
-
 .line-1 {
     width: 70%;
     height: 2px;
@@ -362,8 +356,6 @@ nav {
         height: 5px;
         background-color: #2C49FE;
         border-radius: 2px;
-        
-  
     }
 
     ul.mobile-view {
@@ -378,8 +370,7 @@ nav {
         top: 0;
         left: -100%;
         transition: all 200ms linear;
-        z-index: 1;
-       
+        z-index: 1; 
     }
 
     input[type="checkbox"]:checked~ul {
@@ -404,5 +395,4 @@ nav {
         padding-left: 12px;
         padding-right: 12px;
     }
-
 }
